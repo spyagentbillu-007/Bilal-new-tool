@@ -18,5 +18,4 @@
 pkg update 
 pkg upgrade 
 git clone https://github.com/spyagentbillu-007/Bilal-tool.git
-cd bilal_new
-python bilal_new.py
+python scaner.py
