@@ -15,7 +15,9 @@
 
 ## Usage
 ```bash
-pkg update 
-pkg upgrade 
-git clone https://github.com/spyagentbillu-007/Bilal-tool.git
-python scaner.py
+pkg update && pkg upgrade -y
+pkg install git python -y
+termux-setup-storage
+git clone https://github.com/spyagentbillu-007/Bilal-new-tool.git
+cd Bilal-new-tool
+python3 scaner.py 
